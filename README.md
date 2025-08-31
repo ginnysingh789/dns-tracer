@@ -24,7 +24,7 @@ The tool mimics the behavior of a recursive DNS resolver when it needs to find a
 
 To build the tool, you need to have Go installed on your system.
 
-```sh
+```bash
 go build -o dns-tracer ./cmd
 ```
 
@@ -34,7 +34,7 @@ This will create an executable file named `dns-tracer` in the root directory.
 
 Run the tool from your terminal, providing the domain you want to trace using the `-domain` flag.
 
-```sh
+```bash
 ./dns-tracer -domain www.github.com
 ```
 
